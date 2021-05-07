@@ -1,0 +1,22 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gallery img {
+    max-width: 450px;
+    max-height: 350px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.gallery a {
+    border: none;
+}
+
+.gallery img:hover {
+    transform: scale(1.05) !important;
+    cursor: pointer;
+}

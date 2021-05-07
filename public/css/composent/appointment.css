@@ -1,0 +1,54 @@
+.appointment-flex-item {
+    background: #0f4c75;
+    height: 450px;
+    width: 45%;
+    padding: 0px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.appointment-img {
+    background-image: url("../images/house/test1.jpg");
+}
+
+.appointment-text {
+    padding: 200px 20px;
+    font-size: 50px;
+    background: rgba(0,0,0,0.5);
+}
+
+.appointment-form {
+    padding: 20px;
+}
+
+.appointment-form input, textarea {
+    width: 60%;
+    max-width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+.appointment-form textarea {
+    height: 100px;
+    max-height: 100px;
+    max-width: 60%;
+    overflow-y: scroll;
+}
+
+.appointment-btn {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.appointment-btn:hover {
+    background: white;
+    color: #0f4c75;
+}

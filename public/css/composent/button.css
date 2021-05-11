@@ -14,3 +14,32 @@
     color: white;
     transition: all 0.3s;
 }
+
+li.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0f4c75;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+ }
+  
+.dropdown-content a:hover {
+    background: #00406b;
+    transition: all 0.3s;
+    border: none;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}

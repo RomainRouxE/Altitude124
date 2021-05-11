@@ -1,6 +1,7 @@
 @import 'layout/header.css';
 @import 'layout/footer.css';
 @import 'composent/photo.css';
+@import 'composent/button.css';
 
 html {
     scroll-behavior: smooth;

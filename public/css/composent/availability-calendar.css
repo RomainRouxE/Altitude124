@@ -1,0 +1,66 @@
+/**
+ * Calendar toolbar
+ */
+.availability-calendar-toolbar {
+	margin: auto;
+	width: 30%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-size: 1.4em;
+	background: #002b47;
+}
+
+.availability-calendar-toolbar span:last-child {float:right}
+
+.availability-calendar-toolbar input {
+	padding: 7px 14px;
+	background: #00000000;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+}
+
+.availability-calendar-toolbar input:first-child {
+	margin-right: 5px;
+}
+
+.availability-calendar-toolbar input:hover {
+	color: #000000;
+}
+
+
+/**
+ * Calendar table and cells
+ */
+.availability-calendar {
+	margin: auto;
+	width: 30%;
+	background: #0f4c75;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.availability-calendar th, .availability-calendar td {
+	padding: 5px;
+}
+
+.availability-calendar td:hover {
+	color: #00aa41;
+}
+
+.availability-calendar td {
+	height: 50px;
+	text-align: center;
+}
+
+.availability-calendar .ex-month {opacity: 0.4}
+
+.availability-calendar .unavailable {
+	background: #a73535;
+	position: relative
+}
+
+.availability-calendar .unavailable:hover {
+	color: #ff0000;
+}

@@ -4,6 +4,7 @@
 @import 'composent/overview.css';
 @import 'composent/appointment.css';
 @import 'composent/button.css';
+@import 'composent/availability-calendar.css';
 
 html {
     scroll-behavior: smooth;

@@ -3,10 +3,10 @@
  */
 .availability-calendar-toolbar {
 	margin: auto;
-	width: 30%;
+	width: 60%;
 	padding-top: 10px;
 	padding-bottom: 15px;
-	font-size: 1.4em;
+	font-size: 1.7em;
 	background: #002b47;
 }
 
@@ -35,7 +35,7 @@
  */
 .availability-calendar {
 	margin: auto;
-	width: 30%;
+	width: 60%;
 	background: #0f4c75;
 	table-layout: fixed;
 	border-collapse: collapse;

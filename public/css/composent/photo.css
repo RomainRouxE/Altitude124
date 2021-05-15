@@ -6,7 +6,7 @@
 }
 
 .gallery img {
-    max-width: 450px;
+    max-width: 500px;
     max-height: 350px;
     margin: 10px;
     transition: 1s;

@@ -13,12 +13,17 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="public/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 
 <body>
     <div id="z" class="gallery-background">
-        <div class="menu" id="sticky">
-            <ul class="menu-ul">
+        <nav class="navbar" id="sticky">
+            <ul class="menu">
                 <li><a href="home.html">Home</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
@@ -30,16 +35,21 @@
                 </li>
                 <li><a href="#d">Contactez nous</a></li>
                 <li><a href="gallery.html"><img src="public/images/Logo/fr.jpg"></a></li>
-                <li><div class="mode">
+                <li>
+                    <div class="mode">
                         <input type="checkbox" class="checkbox" id="chk" />
                         <label class="label" for="chk">
                             <i class="fas fa-moon"></i>
                             <i class="fas fa-sun"></i>
                             <div class="ball"></div>
                         </label>
-                    </div></li>
+                    </div>
+                </li>
             </ul>
-        </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
     </div>
 
     <div id="b" class="page-blocks">
@@ -47,26 +57,26 @@
             BBBBbbbbbb yyyyy
         </div>
         <div class="gallery">
-                <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
         </div>
     </div>
     <hr data-aos="fade-up">
@@ -75,26 +85,26 @@
             CCCCCccc yyyyyy
         </div>
         <div class="gallery">
-                <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
         </div>
     </div>
     <hr data-aos="fade-up">
@@ -103,26 +113,26 @@
             Ddddddd kkkkk
         </div>
         <div class="gallery">
-                <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
         </div>
     </div>
     <hr data-aos="fade-up">
@@ -131,26 +141,26 @@
             Eeeeee iiiiii
         </div>
         <div class="gallery">
-                <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
-                <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
-                                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a1.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a1.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a3.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a3.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a2.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a2.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a4.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a4.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a5.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a5.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a6.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a6.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a7.jpeg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a7.jpeg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a8.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a8.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a9.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a9.jpg" data-aos="fade-up"></a></div>
+            <div class="item"><a href="public/images/gallery/a10.jpg" data-lightbox="mygallery"><img
+                        src="public/images/gallery/a10.jpg" data-aos="fade-up"></a></div>
         </div>
     </div>
 

@@ -22,6 +22,15 @@
     min-width: 27%;
 }
 
+@media screen and (max-width: 800px) {
+    .description {
+        width: 90%;
+    }
+    .summary {
+        width: 90%;
+    }
+}
+
 .overview-sum-left {
     width: 40%;
     font-weight: lighter;

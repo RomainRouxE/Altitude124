@@ -1,22 +1,30 @@
 .gallery {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0;
 }
 
-.gallery img {
-    max-width: 500px;
-    max-height: 350px;
+.item {
+    width: 300px;
+    height: 200px;
     margin: 10px;
-    transition: 1s;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
-.gallery a {
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item a {
     border: none;
 }
 
-.gallery img:hover {
+.item img:hover {
     transform: scale(1.05) !important;
     cursor: pointer;
 }

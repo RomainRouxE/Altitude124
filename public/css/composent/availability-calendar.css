@@ -64,3 +64,12 @@
 .availability-calendar .unavailable:hover {
 	color: #ff0000;
 }
+
+@media screen and (max-width: 800px) {
+    .availability-calendar-toolbar {
+      width: 90%;
+    }
+	.availability-calendar {
+		width: 90%;
+    }
+}

@@ -1,5 +1,5 @@
 (function ($) {
-	var weekdays = ['Mond', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+	var weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 

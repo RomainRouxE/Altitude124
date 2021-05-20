@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/jpg" href="public/images/logo/logo.jpg" />
     <title>Maison 2</title>
     <link rel="stylesheet" href="public/css/home.css">
@@ -14,14 +15,6 @@
 </head>
 
 <body class="light">
-    <div class="mode">
-        <input type="checkbox" class="checkbox" id="chk" />
-        <label class="label" for="chk">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-            <div class="ball"></div>
-        </label>
-    </div>
     <div id="a" class="top-background">
         <div class="menu" id="sticky">
             <ul class="menu-ul">
@@ -30,6 +23,14 @@
                 <li><a href="#c">Why Us</a></li>
                 <li><a href="#d">Contact Nous</a></li>
                 <li><a href="home-en.html"><img src="public/images/logo/en.jpg"></a></li>
+                <li><div class="mode">
+                    <input type="checkbox" class="checkbox" id="chk" />
+                    <label class="label" for="chk">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div></li>
             </ul>
         </div>
         <div class="page-title">Altitude 124
@@ -44,15 +45,15 @@
             Our designs
         </div>
         <div class="gallery">
-            <img src="public/images/house/test2.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test3.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test4.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test5.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test6.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test7.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test8.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test9.jpg" data-aos="fade-up" />
-            <img src="public/images/house/test10.jpg" data-aos="fade-up" />
+            <div class="item"><img src="public/images/house/test2.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test3.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test4.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test5.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test6.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test7.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test8.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test9.jpg" data-aos="fade-up" /></div>
+            <div class="item"><img src="public/images/house/test10.jpg" data-aos="fade-up" /></div>
         </div>
         <button class="more-design-btn" data-aos="fade-up" onclick="window.location.href = 'gallery.html';">More
             Picture</button>

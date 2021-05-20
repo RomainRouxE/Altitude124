@@ -23,7 +23,6 @@
 
 .appointment-form input, textarea {
     width: 60%;
-    max-width: 60%;
     padding: 10px;
     margin-bottom: 20px;
     outline: none;
@@ -35,7 +34,6 @@
 .appointment-form textarea {
     height: 100px;
     max-height: 100px;
-    max-width: 60%;
     overflow-y: scroll;
 }
 
@@ -51,4 +49,15 @@
 .appointment-btn:hover {
     background: white;
     color: #0f4c75;
+}
+
+@media screen and (max-width: 800px) {
+    .appointment-flex-item {
+      width: 90%;
+      height: 400px;
+      margin: 0px;
+    }
+    .appointment-text { padding: 150px 20px;}
+
+    .appointment-form input, textarea {width: 80%;}
 }

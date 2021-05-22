@@ -37,7 +37,7 @@
     border-bottom: 1px solid white;
 }
 
-.menu-btn{
+.menu-btn, .menu-alt{
     color: #ffffff;
     cursor: pointer;
     display: none;
@@ -97,11 +97,18 @@
 }
 
 @media (max-width: 947px){
-    .menu-btn{
+    .navbar {
+        justify-content: space-between;
+    }
+    .menu-btn a {
+        padding: 0;
+    }
+    .menu-btn, .menu-alt{
         display: block;
 		padding: 21px;
         z-index: 999;
     }
+
     .menu-btn i.active:before{
         content: "\f00d";
     }

@@ -4,7 +4,7 @@ const currentTheme = localStorage.getItem("theme");
 if (currentTheme == "dark") {
   document.body.classList.add("dark");
   if (page.includes("home.html") || page.includes("home-en.html"))
-    document.getElementById("a").style.backgroundImage =
+    document.getElementById("altitude124").style.backgroundImage =
       "url('public/images/house/bgdark.jpg')";
 }
 
@@ -17,10 +17,10 @@ chk.addEventListener("change", () => {
   if (document.body.classList.contains("dark")) {
     theme = "dark";
     if (page.includes("home.html") || page.includes("home-en.html"))
-      document.getElementById("a").style.backgroundImage =
+      document.getElementById("altitude124").style.backgroundImage =
         "url('public/images/house/bgdark.jpg')";
   } else if (page.includes("home.html") || page.includes("home-en.html"))
-    document.getElementById("a").style.backgroundImage =
+    document.getElementById("altitude124").style.backgroundImage =
       "url('public/images/house/bglight.jpg')";
 
   localStorage.setItem("theme", theme);

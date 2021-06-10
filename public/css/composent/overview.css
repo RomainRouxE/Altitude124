@@ -1,6 +1,5 @@
 .description {
   background: #0f4c75;
-  height: 600px;
   width: 55%;
   padding: 0px;
   margin: 20px 0px;
@@ -12,7 +11,6 @@
 
 .summary {
   background: #0f4c75;
-  height: 600px;
   width: 35%;
   padding: 0px;
   margin: 20px 0px;
@@ -58,7 +56,7 @@
 
 .overview-desc {
   font-weight: lighter;
-  padding-left: 20px;
+  padding: 20px 20px;
   font-size: 20px;
   text-align: left;
   font-weight: lighter;

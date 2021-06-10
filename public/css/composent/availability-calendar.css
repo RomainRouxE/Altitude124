@@ -2,74 +2,78 @@
  * Calendar toolbar
  */
 .availability-calendar-toolbar {
-	margin: auto;
-	width: 60%;
-	padding-top: 10px;
-	padding-bottom: 15px;
-	font-size: 1.7em;
-	background: #002b47;
+  margin: auto;
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 1.7em;
+  background: #002b47;
 }
 
-.availability-calendar-toolbar span:last-child {float:right}
+.availability-calendar-toolbar span:last-child {
+  float: right;
+}
 
 .availability-calendar-toolbar input {
-	padding: 7px 14px;
-	background: #00000000;
-	color: white;
-	font-weight: bold;
-	cursor: pointer;
-	border: none;
+  padding: 7px 14px;
+  background: #00000000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
 }
 
 .availability-calendar-toolbar input:first-child {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 .availability-calendar-toolbar input:hover {
-	color: #000000;
+  color: #000000;
 }
-
 
 /**
  * Calendar table and cells
  */
 .availability-calendar {
-	margin: auto;
-	width: 60%;
-	background: #0f4c75;
-	table-layout: fixed;
-	border-collapse: collapse;
+  margin: auto;
+  width: 60%;
+  background: #0f4c75;
+  table-layout: fixed;
+  border-collapse: collapse;
 }
 
-.availability-calendar th, .availability-calendar td {
-	padding: 5px;
+.availability-calendar th,
+.availability-calendar td {
+  padding: 5px;
 }
 
 .availability-calendar td:hover {
-	color: #00aa41;
+  color: #00aa41;
 }
 
 .availability-calendar td {
-	height: 50px;
-	text-align: center;
+  height: 50px;
+  text-align: center;
 }
 
-.availability-calendar .ex-month {opacity: 0.4}
+.availability-calendar .ex-month {
+  opacity: 0.4;
+}
 
 .availability-calendar .unavailable {
-	background: #a73535;
-	position: relative
+  background: #a73535;
+  position: relative;
 }
 
 .availability-calendar .unavailable:hover {
-	color: #ff0000;
+  color: #ff0000;
 }
 
 @media screen and (max-width: 800px) {
-    .availability-calendar-toolbar {
-      width: 90%;
-    }
-	.availability-calendar {
-		width: 90%;
-    }
+  .availability-calendar-toolbar {
+    width: 90%;
+  }
+  .availability-calendar {
+    width: 90%;
+  }
 }

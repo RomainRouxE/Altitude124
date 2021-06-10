@@ -1,74 +1,76 @@
-@import 'layout/header.css';
-@import 'layout/footer.css';
-@import 'composent/photo.css';
-@import 'composent/overview.css';
-@import 'composent/appointment.css';
-@import 'composent/button.css';
-@import 'composent/availability-calendar.css';
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "composent/photo.css";
+@import "composent/overview.css";
+@import "composent/appointment.css";
+@import "composent/button.css";
+@import "composent/availability-calendar.css";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    background: #f4edde;
-    color: white;
-    width: 100%;
+  margin: 0;
+  background: #f4edde;
+  color: white;
+  width: 100%;
 }
 
 body.dark {
-    background: #000910;
-    color: black;
+  background: #000910;
+  color: black;
 }
 
-.top-background, .appointment-img {
-    background-image: url("../images/house/day.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.top-background,
+.appointment-img {
+  background-image: url("../images/house/bglight.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .flex-block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .page-blocks {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .page-title {
-    text-align: center;
-    font-size: 50px;
-    padding: 375px 0px;
-    letter-spacing: 10px;
-    text-shadow: 0 0 5px #0f4c75;
+  text-align: center;
+  font-size: 50px;
+  padding: 375px 0px;
+  letter-spacing: 10px;
+  text-shadow: 0 0 5px #0f4c75;
 }
 
-.header-description, .title {
-    font-variant: small-caps;
-    font-size: 30px;
-    margin: 20px;
+.header-description,
+.title {
+  font-variant: small-caps;
+  font-size: 30px;
+  margin: 20px;
 }
 
 .title {
-    letter-spacing: 10px;
-    color: #0f4c75;
+  letter-spacing: 10px;
+  color: #0f4c75;
 }
 
 @media screen and (max-width: 700px) {
-    .page-title {
-        padding: 270px 0px;
-    }
+  .page-title {
+    padding: 270px 0px;
+  }
 }

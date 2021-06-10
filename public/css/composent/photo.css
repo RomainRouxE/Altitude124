@@ -1,31 +1,31 @@
 .gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-    max-width: 1300px;
-    margin: 70px auto 0;
-    z-index: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 1300px;
+  margin: 70px auto 0;
+  z-index: 0;
 }
 
 .item {
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .item img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .item a {
-    border: none;
+  border: none;
 }
 
 .item img:hover {
-    transform: scale(1.05) !important;
-    cursor: pointer;
+  transform: scale(1.05) !important;
+  cursor: pointer;
 }

@@ -217,9 +217,8 @@
 })(jQuery);
 
 var unavailableDates = [
-  { start: "2021-09-11", end: "2021-09-15" },
-  { start: "2022-09-15", end: "2022-09-23" },
-  { start: "2021-10-01", end: "2021-10-07" },
+  { start: "2021-05-28", end: "2021-07-16" },
+  { start: "2021-07-31", end: "2021-08-20" },
 ];
 
 $("#calendar").availabilityCalendar(unavailableDates);

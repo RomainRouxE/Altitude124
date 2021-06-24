@@ -8,7 +8,6 @@
   min-width: 27%;
   line-height: 20px;
 }
-
 .summary {
   background: #0f4c75;
   width: 35%;
@@ -19,8 +18,7 @@
   line-height: 40px;
   min-width: 27%;
 }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
   .description {
     width: 90%;
   }
@@ -28,32 +26,17 @@
     width: 90%;
   }
 }
-
-.overview-sum-left {
-  width: 40%;
+.overview-sum {
   font-weight: lighter;
   display: inline-block;
-  text-align: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.overview-sum-right {
-  width: 40%;
-  font-weight: lighter;
-  display: inline-block;
-  padding-right: 30px;
-  text-align: right;
   font-size: 20px;
   font-weight: lighter;
 }
-
 .overview-title {
   font-weight: bold;
   padding: 20px 30px;
   font-size: 25px;
 }
-
 .overview-desc {
   font-weight: lighter;
   padding: 20px 20px;
@@ -61,9 +44,12 @@
   text-align: left;
   font-weight: lighter;
 }
-
+.overview-desc-tab {
+  margin-left: 20px;
+  margin-top: 5px;
+}
 iframe {
   width: 90%;
-  height: 300px;
+  height: 400px;
   border: 0;
 }

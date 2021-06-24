@@ -19,7 +19,6 @@ body {
   background: #f4edde;
   color: white;
 }
-
 body.dark {
   background: #000910;
   color: black;
@@ -28,7 +27,6 @@ body.dark {
 .gallery-background {
   background-color: #0f4c75;
 }
-
 .title {
   letter-spacing: 10px;
   color: #0f4c75;
@@ -36,12 +34,10 @@ body.dark {
   font-size: 30px;
   margin: 20px;
 }
-
 .page-blocks {
   text-align: center;
   margin-top: 50px;
 }
-
 hr {
   border: 0;
   height: 2px;

@@ -23,12 +23,10 @@ body {
   color: white;
   width: 100%;
 }
-
 body.dark {
   background: #000910;
   color: black;
 }
-
 .top-background,
 .appointment-img {
   background-image: url("../images/house/bglight.jpg");
@@ -36,19 +34,16 @@ body.dark {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .flex-block {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
 }
-
 .page-blocks {
   text-align: center;
   margin-top: 50px;
 }
-
 .page-title {
   text-align: center;
   font-size: 50px;
@@ -56,14 +51,12 @@ body.dark {
   letter-spacing: 10px;
   text-shadow: 0 0 5px #0f4c75;
 }
-
 .header-description,
 .title {
   font-variant: small-caps;
   font-size: 30px;
   margin: 20px;
 }
-
 .title {
   letter-spacing: 10px;
   color: #0f4c75;

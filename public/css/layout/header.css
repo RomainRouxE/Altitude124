@@ -37,6 +37,9 @@
   cursor: pointer;
   display: none;
 }
+.menu-btn img {
+  border: solid 1px black;
+}
 .checkbox {
   opacity: 0;
   position: absolute;

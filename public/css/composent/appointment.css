@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 .appointment-img {
-  background-image: url("../images/house/test1.jpg");
+  background-image: url("../images/house/bglight.jpg");
 }
 .appointment-text {
   padding: 200px 20px;
@@ -24,7 +24,7 @@ textarea {
   padding: 10px;
   margin-bottom: 20px;
   outline: none;
-  text-align: center;
+  text-align: left;
   color: black;
   font-size: 16px;
 }

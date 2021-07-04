@@ -5,7 +5,7 @@ if (currentTheme == "dark") {
   document.body.classList.add("dark");
   if (page.includes("home.html") || page.includes("home-en.html"))
     document.getElementById("altitude124").style.backgroundImage =
-      "url('public/images/house/bgdark.jpg')";
+      "url('public/images/house/bgdark.jpeg')";
 }
 
 const chk = document.getElementById("chk");
@@ -18,7 +18,7 @@ chk.addEventListener("change", () => {
     theme = "dark";
     if (page.includes("home.html") || page.includes("home-en.html"))
       document.getElementById("altitude124").style.backgroundImage =
-        "url('public/images/house/bgdark.jpg')";
+        "url('public/images/house/bgdark.jpeg')";
   } else if (page.includes("home.html") || page.includes("home-en.html"))
     document.getElementById("altitude124").style.backgroundImage =
       "url('public/images/house/bglight.jpg')";

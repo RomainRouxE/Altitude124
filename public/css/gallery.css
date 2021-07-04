@@ -19,10 +19,6 @@ body {
   background: #f4edde;
   color: white;
 }
-body.dark {
-  background: #000910;
-  color: black;
-}
 
 .gallery-background {
   background-color: #0f4c75;

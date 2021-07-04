@@ -23,5 +23,6 @@
 }
 .item img:hover {
   transform: scale(1.05) !important;
+  transition-duration: 1s;
   cursor: pointer;
 }

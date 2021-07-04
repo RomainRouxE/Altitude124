@@ -20,12 +20,12 @@ html {
 body {
   margin: 0;
   background: #f4edde;
-  color: white;
+  color: #0f4c75;
   width: 100%;
 }
 body.dark {
   background: #000910;
-  color: black;
+  color: white;
 }
 .top-background,
 .appointment-img {
@@ -50,6 +50,7 @@ body.dark {
   padding: 375px 0px;
   letter-spacing: 10px;
   text-shadow: 0 0 5px #0f4c75;
+  color: white;
 }
 .header-description,
 .title {
@@ -59,7 +60,6 @@ body.dark {
 }
 .title {
   letter-spacing: 10px;
-  color: #0f4c75;
 }
 
 @media screen and (max-width: 700px) {

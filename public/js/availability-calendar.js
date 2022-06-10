@@ -219,6 +219,7 @@
 var unavailableDates = [
   { start: "2021-05-28", end: "2021-07-16" },
   { start: "2021-07-31", end: "2021-08-20" },
+  { start: "2022-07-16", end: "2022-07-23" },
 ];
 
 $("#calendar").availabilityCalendar(unavailableDates);

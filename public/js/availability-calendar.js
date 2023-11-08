@@ -1,19 +1,6 @@
 (function ($) {
   var weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-  var months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
+  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
   function AvailabilityCalendar(container, bookedDates) {
     this.date = new Date();
@@ -37,12 +24,8 @@
       this.$monthLabel = $("<span></span>").appendTo($toolbar);
       var $inputContainer = $("<span></span>").appendTo($toolbar);
 
-      $inputContainer.append(
-        '<input type="button" title="Previous month" value="&#10094;">'
-      );
-      $inputContainer.append(
-        '<input type="button" title="Next month" value="&#10095;">'
-      );
+      $inputContainer.append('<input type="button" title="Previous month" value="&#10094;">');
+      $inputContainer.append('<input type="button" title="Next month" value="&#10095;">');
 
       var $inputs = $inputContainer.children("input");
       var self = this;
@@ -71,9 +54,7 @@
       // Day cells
       for (var i = 0; i < 6; ++i) {
         $tr = $("<tr></tr>").appendTo($table);
-        $tr.append(
-          "<td></td><td></td><td></td><td></td><td></td><td></td><td></td>"
-        );
+        $tr.append("<td></td><td></td><td></td><td></td><td></td><td></td><td></td>");
       }
 
       this.$cells = $table.find("td");
@@ -173,11 +154,7 @@
 
       this.$monthLabel.html(months[month] + " " + year);
       this.$cells.removeClass("ex-month");
-      this.$cells
-        .filter(".unavailable")
-        .removeClass("unavailable")
-        .children()
-        .remove();
+      this.$cells.filter(".unavailable").removeClass("unavailable").children().remove();
 
       this.__addPreviousMonthDays(date, cellIndexes, dates);
       this.__addThisMonthDays(date, year, month, cellIndexes, dates);
@@ -216,11 +193,6 @@
   };
 })(jQuery);
 
-var unavailableDates = [
-  { start: "2021-05-28", end: "2021-07-16" },
-  { start: "2021-07-31", end: "2021-08-20" },
-  { start: "2022-07-17", end: "2022-07-22" },
-  { start: "2022-08-14", end: "2022-08-19" },
-];
+var unavailableDates = [{ start: "2023-12-23", end: "2024-01-06" }];
 
 $("#calendar").availabilityCalendar(unavailableDates);
